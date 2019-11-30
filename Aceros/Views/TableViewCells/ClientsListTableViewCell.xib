@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham-Bold.otf">
+            <string>Gotham-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ClientsListTableViewCell" rowHeight="118" id="KGk-i7-Jjw" customClass="ClientsListTableViewCell" customModule="Aceros" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="328" height="118"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="328" height="117.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pablo Escobar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flL-OK-Fcd">
+                        <rect key="frame" x="16" y="15" width="116.5" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="Xd9-RW-1rt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="16"/>
+                        <color key="textColor" name="TitleColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jan11, 2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2X-Bi-ZFI">
+                        <rect key="frame" x="217.5" y="18" width="90.5" height="18"/>
+                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="16"/>
+                        <color key="textColor" name="TitleColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interaction not logged" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6c9-Yn-7z5">
+                        <rect key="frame" x="163" y="42.5" width="145" height="13.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="145" id="Ibm-LE-I6B"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="12"/>
+                        <color key="textColor" red="0.26274509800000001" green="0.81960784310000001" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JcG-rs-bZh">
+                        <rect key="frame" x="16" y="49" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="12"/>
+                        <color key="textColor" name="SubTitleColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="z2X-Bi-ZFI" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="flL-OK-Fcd" secondAttribute="trailing" constant="5" id="822-Ow-aW2"/>
+                    <constraint firstItem="flL-OK-Fcd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="H4g-Na-MnU"/>
+                    <constraint firstItem="flL-OK-Fcd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="H9R-Zw-cpZ"/>
+                    <constraint firstItem="6c9-Yn-7z5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="JcG-rs-bZh" secondAttribute="trailing" constant="5" id="Jtn-kb-IWn"/>
+                    <constraint firstItem="6c9-Yn-7z5" firstAttribute="centerY" secondItem="JcG-rs-bZh" secondAttribute="centerY" id="Jyc-NP-zXl"/>
+                    <constraint firstItem="JcG-rs-bZh" firstAttribute="leading" secondItem="flL-OK-Fcd" secondAttribute="leading" id="K0B-fu-spO"/>
+                    <constraint firstItem="JcG-rs-bZh" firstAttribute="top" secondItem="flL-OK-Fcd" secondAttribute="bottom" constant="10" id="iZG-AT-95R"/>
+                    <constraint firstItem="z2X-Bi-ZFI" firstAttribute="centerY" secondItem="flL-OK-Fcd" secondAttribute="centerY" id="kvz-3M-SE9"/>
+                    <constraint firstItem="6c9-Yn-7z5" firstAttribute="trailing" secondItem="z2X-Bi-ZFI" secondAttribute="trailing" id="pch-aJ-xL1"/>
+                    <constraint firstAttribute="trailing" secondItem="z2X-Bi-ZFI" secondAttribute="trailing" constant="20" id="wA5-Dm-Ld2"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="JcG-rs-bZh" secondAttribute="bottom" constant="10" id="y4A-nI-7NI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblDate" destination="z2X-Bi-ZFI" id="hzP-jP-tBg"/>
+                <outlet property="lblInteractionStatus" destination="6c9-Yn-7z5" id="Z93-gA-sNG"/>
+                <outlet property="lblPlace" destination="JcG-rs-bZh" id="ahU-qw-wZv"/>
+                <outlet property="lblname" destination="flL-OK-Fcd" id="9lq-KU-Jip"/>
+            </connections>
+            <point key="canvasLocation" x="139.19999999999999" y="148.42578710644679"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="SubTitleColor">
+            <color red="0.29019607843137257" green="0.29019607843137257" blue="0.29019607843137257" alpha="0.60000002384185791" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TitleColor">
+            <color red="0.29019607843137257" green="0.29019607843137257" blue="0.29019607843137257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

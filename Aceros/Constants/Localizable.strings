@@ -1,0 +1,56 @@
+/* 
+ English.strings
+ Aceros
+ 
+ Created by Apple on 27/07/19.
+ Copyright © 2019 Apple. All rights reserved.
+ */
+
+
+//MARK: - Pop Up Message
+"pop.locTitle" = "Location Alert!";
+"pop.noLocation"= "Unable to get your current location.";
+"pop.setting" = "Setting";
+"pop.fieldsNecessary" = "All fields are necessary!";
+"pop.addPhoto" = "Please add one or more photos!";
+"pop.imageLimit" = "You can not add more than 5 photos.";
+"pop.checkInSuccess" = "Check In added successfully.";
+"pop.dayOutSucceess" = "You have been successfully day out.";
+"pop.profileUpdateSuccess" = "Your profile has been updated successfully.";
+"pop.clientAdded" = "Client added successfully.";
+"pop.noUsernamePassword" = "Please enter username and password";
+"pop.nosearchReasult" = "No client name matches this keyword. Try searching other keyword.";
+"pop.noClientsAvailable" = "No clients available.";
+"pop.noClinetsInBuilding" = "No clients in this building";
+
+//MARK: - Home
+"home.welcome" = "Welcome";
+
+//Left Panel
+"panel.today" = "Today,";
+"panel.alreadyDayOut" = "Already Day-out";
+"panel.dayOut" = "Day-out";
+"panel.msgDayout" = "You have already dayout.";
+"panel.menuCheckHistory" = "Check in history";
+"panel.menuClients" = "Clients";
+"panel.menuDayOut" = "Day-out";
+
+
+
+//MARK: - Profile
+"profile.notAvailable" = "Not available";
+"profile.YouAreAt" = "You are at";
+"profile.checkedIn" = "Checked In";
+"profile.dayIn" = "Day In";
+"profile.dayOut" = "day Out";
+
+//History
+"title.today" = "Today";
+"history.noHistory" = "No CheckIn history for this day.";
+
+
+
+
+// CheckIn
+"checkIn.CheckInAddress" = "CheckIn Address";
+

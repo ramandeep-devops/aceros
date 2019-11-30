@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham-Bold.otf">
+            <string>Gotham-Bold</string>
+        </array>
+        <array key="Gotham-Light.otf">
+            <string>Gotham-Light</string>
+        </array>
+        <array key="Gotham-Medium.otf">
+            <string>Gotham-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="354" id="VSZ-fh-cz9" customClass="BuildingClientsTableViewCell" customModule="Aceros" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="456" height="354"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VSZ-fh-cz9" id="i57-CA-6H1">
+                <rect key="frame" x="0.0" y="0.0" width="456" height="353.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Client name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hs-re-iYa">
+                        <rect key="frame" x="0.0" y="20" width="456" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="iNC-A3-5Nd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Becky Hamilton" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrF-bo-vV8">
+                        <rect key="frame" x="0.0" y="41" width="456" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="dMV-kG-rhL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="16"/>
+                        <color key="textColor" name="TitleColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UjT-Ke-PE8">
+                        <rect key="frame" x="0.0" y="78" width="456" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="aa0-cX-VBL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s50-FR-aRr">
+                        <rect key="frame" x="0.0" y="99" width="406" height="31.5"/>
+                        <mutableString key="text">Businesses often become known today through  rthrthrthrththrthrthrthrthrthrthhtrhtrhrthtrhrththrthrthrtht jyt jtyj tyjtyj ty jty jyt jyt jty jty jyt ytjtyj y tytyktyk tyktyk tyk rtjrtjrtjrtjrtjrtj rtjrtjrt jrtjrtjrtjtr jrteffective marketing. The marketing may be in the form ogergergr.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.effective marketing. The marketing may be in the form ogergergr.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.rrrrrrrrr</mutableString>
+                        <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="16"/>
+                        <color key="textColor" name="TitleColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fzz-pF-ijW">
+                        <rect key="frame" x="406" y="102.5" width="42" height="28"/>
+                        <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="16"/>
+                        <state key="normal" title="more">
+                            <color key="titleColor" name="ThemeColor"/>
+                        </state>
+                        <connections>
+                            <action selector="actionMore:" destination="VSZ-fh-cz9" eventType="touchUpInside" id="1QI-p6-mOX"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BJB-e1-7Mu" customClass="AnimatableView" customModule="IBAnimatable">
+                        <rect key="frame" x="0.0" y="167.5" width="456" height="175"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMH-B9-dCt">
+                                <rect key="frame" x="16" y="86" width="424" height="33"/>
+                                <string key="text">Differentiate and you stand out in a crowded marketplace. Present your uniqueness and emphasize your rare attributes in your sales copy and promotions and you’ll capture .</string>
+                                <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="11"/>
+                                <color key="textColor" name="TitleColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Just about to completion phase" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ef5-qn-65f">
+                                <rect key="frame" x="16" y="60" width="424" height="11"/>
+                                <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="11"/>
+                                <color key="textColor" name="NavTitle"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Airtel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGE-3t-Zy4">
+                                <rect key="frame" x="16" y="25" width="424" height="20"/>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="18"/>
+                                <color key="textColor" name="NavTitle"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qKE-7s-5Gf" customClass="AnimatableView" customModule="IBAnimatable">
+                                <rect key="frame" x="0.0" y="137" width="456" height="38"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interaction logged on 19Jun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="295-jD-uOr">
+                                        <rect key="frame" x="16" y="12.5" width="164" height="13"/>
+                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="12"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cx2-5Q-Vyx">
+                                        <rect key="frame" x="316" y="6" width="100" height="26"/>
+                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="12"/>
+                                        <state key="normal" title="View interaction">
+                                            <color key="titleColor" name="ThemeColor"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="3bm-WD-i3O"/>
+                                    <constraint firstItem="295-jD-uOr" firstAttribute="leading" secondItem="qKE-7s-5Gf" secondAttribute="leading" constant="16" id="53E-1b-24l"/>
+                                    <constraint firstItem="cx2-5Q-Vyx" firstAttribute="centerY" secondItem="295-jD-uOr" secondAttribute="centerY" id="IJb-bn-bwq"/>
+                                    <constraint firstAttribute="trailing" secondItem="cx2-5Q-Vyx" secondAttribute="trailing" constant="40" id="ROu-L3-Low"/>
+                                    <constraint firstItem="295-jD-uOr" firstAttribute="centerY" secondItem="qKE-7s-5Gf" secondAttribute="centerY" id="sBv-xB-5se"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.90000000000000002" green="0.92000000000000004" blue="0.93999999999999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="_cornerSides" value="bottomLeft,bottomRight"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="qKE-7s-5Gf" secondAttribute="bottom" id="1Ai-6S-zQt"/>
+                            <constraint firstAttribute="height" constant="175" id="719-j4-RO4"/>
+                            <constraint firstAttribute="trailing" secondItem="xGE-3t-Zy4" secondAttribute="trailing" constant="16" id="8D8-q0-lDl"/>
+                            <constraint firstItem="WMH-B9-dCt" firstAttribute="top" secondItem="ef5-qn-65f" secondAttribute="bottom" constant="15" id="BJQ-gz-pLq"/>
+                            <constraint firstItem="ef5-qn-65f" firstAttribute="top" secondItem="xGE-3t-Zy4" secondAttribute="bottom" constant="15" id="Fvu-FR-X5f"/>
+                            <constraint firstItem="WMH-B9-dCt" firstAttribute="leading" secondItem="BJB-e1-7Mu" secondAttribute="leading" constant="16" id="MBS-5L-Mtw"/>
+                            <constraint firstAttribute="trailing" secondItem="WMH-B9-dCt" secondAttribute="trailing" constant="16" id="NxL-iU-492"/>
+                            <constraint firstItem="qKE-7s-5Gf" firstAttribute="top" secondItem="WMH-B9-dCt" secondAttribute="bottom" constant="18" id="W1A-Sr-paL"/>
+                            <constraint firstItem="xGE-3t-Zy4" firstAttribute="leading" secondItem="BJB-e1-7Mu" secondAttribute="leading" constant="16" id="Xr5-Xx-Fb7"/>
+                            <constraint firstItem="ef5-qn-65f" firstAttribute="leading" secondItem="BJB-e1-7Mu" secondAttribute="leading" constant="16" id="f2N-wy-405"/>
+                            <constraint firstItem="qKE-7s-5Gf" firstAttribute="leading" secondItem="BJB-e1-7Mu" secondAttribute="leading" id="foZ-uX-8KJ"/>
+                            <constraint firstAttribute="trailing" secondItem="qKE-7s-5Gf" secondAttribute="trailing" id="hb6-kF-Agr"/>
+                            <constraint firstAttribute="trailing" secondItem="ef5-qn-65f" secondAttribute="trailing" constant="16" id="pQ0-wa-N2W"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.90000000000000002" green="0.92000000000000004" blue="0.93999999999999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MCY-zx-mv6" customClass="AnimatableView" customModule="IBAnimatable">
+                        <rect key="frame" x="0.0" y="347.5" width="456" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="U5k-XG-ofx"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="_borderType" value="dash"/>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" name="TitleColor"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="JrF-bo-vV8" firstAttribute="top" secondItem="9hs-re-iYa" secondAttribute="bottom" constant="6" id="2Js-OX-SdM"/>
+                    <constraint firstAttribute="trailing" secondItem="9hs-re-iYa" secondAttribute="trailing" id="8NS-j7-yIr"/>
+                    <constraint firstItem="BJB-e1-7Mu" firstAttribute="top" secondItem="s50-FR-aRr" secondAttribute="bottom" constant="37" id="8k9-SJ-bft"/>
+                    <constraint firstAttribute="trailing" secondItem="MCY-zx-mv6" secondAttribute="trailing" id="Gjj-Tf-TVe"/>
+                    <constraint firstItem="9hs-re-iYa" firstAttribute="leading" secondItem="i57-CA-6H1" secondAttribute="leading" id="NDX-Ol-jeq"/>
+                    <constraint firstItem="9hs-re-iYa" firstAttribute="top" secondItem="i57-CA-6H1" secondAttribute="top" constant="20" symbolic="YES" id="Qla-E1-B1i"/>
+                    <constraint firstItem="Fzz-pF-ijW" firstAttribute="bottom" secondItem="s50-FR-aRr" secondAttribute="bottom" id="RYx-Bj-ydj"/>
+                    <constraint firstItem="MCY-zx-mv6" firstAttribute="leading" secondItem="i57-CA-6H1" secondAttribute="leading" id="TlB-PK-stf"/>
+                    <constraint firstItem="UjT-Ke-PE8" firstAttribute="leading" secondItem="i57-CA-6H1" secondAttribute="leading" id="VbL-Qo-MgG"/>
+                    <constraint firstAttribute="trailing" secondItem="UjT-Ke-PE8" secondAttribute="trailing" id="WGx-OP-bep"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="MCY-zx-mv6" secondAttribute="bottom" constant="5" id="cPx-GS-cny"/>
+                    <constraint firstItem="MCY-zx-mv6" firstAttribute="top" secondItem="BJB-e1-7Mu" secondAttribute="bottom" constant="5" id="dK2-hS-GcV"/>
+                    <constraint firstItem="s50-FR-aRr" firstAttribute="trailing" secondItem="UjT-Ke-PE8" secondAttribute="trailing" constant="-50" id="dtK-98-ezK"/>
+                    <constraint firstItem="Fzz-pF-ijW" firstAttribute="leading" secondItem="s50-FR-aRr" secondAttribute="trailing" id="fJY-py-V7S"/>
+                    <constraint firstItem="s50-FR-aRr" firstAttribute="top" secondItem="UjT-Ke-PE8" secondAttribute="bottom" constant="6" id="h3G-Y5-N6r"/>
+                    <constraint firstItem="BJB-e1-7Mu" firstAttribute="leading" secondItem="i57-CA-6H1" secondAttribute="leading" id="iNC-TU-WQQ"/>
+                    <constraint firstItem="s50-FR-aRr" firstAttribute="leading" secondItem="UjT-Ke-PE8" secondAttribute="leading" id="o8w-0w-Vab"/>
+                    <constraint firstItem="UjT-Ke-PE8" firstAttribute="top" secondItem="JrF-bo-vV8" secondAttribute="bottom" constant="21" id="oxe-gn-391"/>
+                    <constraint firstAttribute="trailing" secondItem="BJB-e1-7Mu" secondAttribute="trailing" id="qfT-l7-TOP"/>
+                    <constraint firstItem="JrF-bo-vV8" firstAttribute="leading" secondItem="9hs-re-iYa" secondAttribute="leading" id="uj6-CO-27h"/>
+                    <constraint firstItem="JrF-bo-vV8" firstAttribute="trailing" secondItem="9hs-re-iYa" secondAttribute="trailing" id="zLK-48-H5s"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="gto-F9-55U"/>
+            <connections>
+                <outlet property="btnMore" destination="Fzz-pF-ijW" id="55a-MH-LDm"/>
+                <outlet property="lblDesc" destination="s50-FR-aRr" id="Lx8-7y-NAx"/>
+            </connections>
+            <point key="canvasLocation" x="961.60000000000002" y="-52.173913043478265"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="NavTitle">
+            <color red="0.15999999642372131" green="0.15000000596046448" blue="0.15000000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ThemeColor">
+            <color red="0.2800000011920929" green="0.56999999284744263" blue="0.87000000476837158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TitleColor">
+            <color red="0.29019607843137257" green="0.29019607843137257" blue="0.29019607843137257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

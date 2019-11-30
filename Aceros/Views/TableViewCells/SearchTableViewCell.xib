@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham-Bold.otf">
+            <string>Gotham-Bold</string>
+        </array>
+        <array key="Gotham-Medium.otf">
+            <string>Gotham-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTableViewCell" rowHeight="74" id="KGk-i7-Jjw" customClass="SearchTableViewCell" customModule="Aceros" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="362" height="74"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="362" height="73.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLZ-1O-ppi">
+                        <rect key="frame" x="5" y="10" width="352" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="6cs-B8-x61"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="15"/>
+                        <color key="textColor" name="TitleColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Label Label Label Label Label Label Label Label Label Label Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GiQ-8a-C1Y">
+                        <rect key="frame" x="5" y="33" width="352" height="30.5"/>
+                        <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="GiQ-8a-C1Y" secondAttribute="bottom" constant="10" id="C7E-bH-IrF"/>
+                    <constraint firstItem="GiQ-8a-C1Y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="Vmb-OT-fPh"/>
+                    <constraint firstItem="nLZ-1O-ppi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="aut-dc-AfT"/>
+                    <constraint firstItem="GiQ-8a-C1Y" firstAttribute="top" secondItem="nLZ-1O-ppi" secondAttribute="bottom" constant="5" id="bs1-vE-0wM"/>
+                    <constraint firstAttribute="trailing" secondItem="nLZ-1O-ppi" secondAttribute="trailing" constant="5" id="jal-7r-MlL"/>
+                    <constraint firstAttribute="trailing" secondItem="GiQ-8a-C1Y" secondAttribute="trailing" constant="5" id="nEk-wq-FJG"/>
+                    <constraint firstItem="nLZ-1O-ppi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="qlC-Hb-4dD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblAddress" destination="GiQ-8a-C1Y" id="Z1j-l4-Qj7"/>
+                <outlet property="lblName" destination="nLZ-1O-ppi" id="Bdl-2C-bMP"/>
+            </connections>
+            <point key="canvasLocation" x="166.40000000000001" y="135.832083958021"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="TitleColor">
+            <color red="0.29019607843137257" green="0.29019607843137257" blue="0.29019607843137257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

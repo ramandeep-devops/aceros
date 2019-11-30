@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham-Bold.otf">
+            <string>Gotham-Bold</string>
+        </array>
+        <array key="Gotham-Medium.otf">
+            <string>Gotham-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CompanyAddedTableViewCell" rowHeight="105" id="KGk-i7-Jjw" customClass="CompanyAddedTableViewCell" customModule="Aceros" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="365" height="104.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QHo-yO-Ef6" customClass="AnimatableView" customModule="IBAnimatable">
+                        <rect key="frame" x="10" y="10" width="345" height="84.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Differentiate and you stand o" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mX5-Qj-9Yj">
+                                <rect key="frame" x="16" y="63" width="313" height="13"/>
+                                <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="11"/>
+                                <color key="textColor" name="TitleColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Just about to completion phase" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOY-PZ-YqZ">
+                                <rect key="frame" x="16" y="40" width="313" height="13"/>
+                                <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="11"/>
+                                <color key="textColor" name="NavTitle"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Airtel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBM-5U-CYA">
+                                <rect key="frame" x="16" y="10" width="313" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="H5L-95-JMF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="18"/>
+                                <color key="textColor" name="NavTitle"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="LOY-PZ-YqZ" secondAttribute="trailing" constant="16" id="244-u2-Xlk"/>
+                            <constraint firstItem="nBM-5U-CYA" firstAttribute="top" secondItem="QHo-yO-Ef6" secondAttribute="top" constant="10" id="2Ch-jF-24Y"/>
+                            <constraint firstAttribute="trailing" secondItem="nBM-5U-CYA" secondAttribute="trailing" constant="16" id="9lV-Bx-a8N"/>
+                            <constraint firstItem="mX5-Qj-9Yj" firstAttribute="leading" secondItem="QHo-yO-Ef6" secondAttribute="leading" constant="16" id="Gr5-Bm-Ug2"/>
+                            <constraint firstAttribute="trailing" secondItem="mX5-Qj-9Yj" secondAttribute="trailing" constant="16" id="Tb8-5O-Q3i"/>
+                            <constraint firstItem="LOY-PZ-YqZ" firstAttribute="leading" secondItem="QHo-yO-Ef6" secondAttribute="leading" constant="16" id="dmf-JL-PyI"/>
+                            <constraint firstItem="nBM-5U-CYA" firstAttribute="leading" secondItem="QHo-yO-Ef6" secondAttribute="leading" constant="16" id="h6q-Qq-gi0"/>
+                            <constraint firstItem="LOY-PZ-YqZ" firstAttribute="top" secondItem="nBM-5U-CYA" secondAttribute="bottom" constant="10" id="kbH-DX-RQl"/>
+                            <constraint firstItem="mX5-Qj-9Yj" firstAttribute="top" secondItem="LOY-PZ-YqZ" secondAttribute="bottom" constant="10" id="mTn-nC-hpt"/>
+                            <constraint firstAttribute="bottom" secondItem="mX5-Qj-9Yj" secondAttribute="bottom" constant="8.5" id="tS4-ye-XRC"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.90000000000000002" green="0.92000000000000004" blue="0.93999999999999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="QHo-yO-Ef6" secondAttribute="trailing" constant="10" id="I7d-4k-5vR"/>
+                    <constraint firstItem="QHo-yO-Ef6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Yzh-UW-gfU"/>
+                    <constraint firstAttribute="bottom" secondItem="QHo-yO-Ef6" secondAttribute="bottom" constant="10" id="Z6E-hS-AC9"/>
+                    <constraint firstItem="QHo-yO-Ef6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="pf2-JP-WVm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="clientEmail" destination="LOY-PZ-YqZ" id="Wep-c6-aJx"/>
+                <outlet property="clientPhone" destination="mX5-Qj-9Yj" id="Duf-wb-TWJ"/>
+                <outlet property="lblCompanyName" destination="nBM-5U-CYA" id="Dtf-Gq-lE0"/>
+            </connections>
+            <point key="canvasLocation" x="168.80000000000001" y="156.97151424287858"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="NavTitle">
+            <color red="0.15999999642372131" green="0.15000000596046448" blue="0.15000000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TitleColor">
+            <color red="0.29019607843137257" green="0.29019607843137257" blue="0.29019607843137257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
